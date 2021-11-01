@@ -1,0 +1,1 @@
+apt update -y && apt upgrade -y && apt install default-jdk -y && https://jenkins.waterdog.dev/job/Waterdog/job/Waterdog/job/master-zlib/lastSuccessfulBuild/artifact/Waterfall-Proxy/bootstrap/target/ && echo "java -Xms1024M -Xmx1024M -jar Waterdog.jar" >> start.sh && chmod +x ./start.sh && ./start.sh
